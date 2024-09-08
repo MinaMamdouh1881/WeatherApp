@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import SearchInput from './components/SearchInput';
 export default function Home() {
   return (
     <div className='relative top-0 left-0 w-full h-screen pt-5'>
@@ -10,6 +10,7 @@ export default function Home() {
         fill
         className=' object-cover'
       />
+      <SearchInput />
     </div>
   );
 }
